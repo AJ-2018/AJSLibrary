@@ -1,0 +1,82 @@
+/*   Universal Styles   */
+body{
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+p{
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+/*   Header Section   */
+#header{
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  background-color: beige;
+  display: fixed;
+  font-family: "Noto Sans SC", "Roboto", sans-serif;
+}
+
+#header-img{
+  width: 4rem;
+  height: 3rem;
+}
+
+.name{
+  margin: 0;
+  margin-right: auto;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.header-nav{
+  display: flex;
+}
+
+.header-nav li{
+  margin-right: 2rem;
+}
+
+
+/*    Main Section   */
+
+/* Quote section */
+
+.quote-author{
+  margin: 0 auto;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote{
+  margin: 3rem 0 1rem 0;
+  font-family: "Noto Sans SC", "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.author{
+  margin: 0 0 2rem 0;
+}
+
+
+/*  Email form section  */
+
+#form{
+  margin: 0 auto;
+  width: 100%;
+}
+
+#email{
+  padding: 1rem 0.2rem;
+  width: 15%;
+}
