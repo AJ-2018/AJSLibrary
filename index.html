@@ -10,7 +10,7 @@
   <body>
     <header id="header">
       <img id="header-img" src="./resources/images/logo.png" alt="logo">
-      <p class="name">AJS Library</p>
+      <h1 class="name">AJS Library</h1>
       <nav id="nav-bar">
         <ul class="header-nav">
           <li>Features</li>
@@ -24,9 +24,35 @@
         <p class="quote">"When in doubt, go to the library"</p>
         <p class="author">-J.K.Rowling</p>
       </div>
-      <form id="form">
+      <form method="post" action="https://www.freecodecamp.com/email-submit" id="form">
         <input type="email" id="email" placeholder="Enter your email address">
+        <input type="submit" id="submit" value="Get Started">
       </form>
+      <div class="features">
+        <div class="collections">
+          <div class="f-pic">
+            <img src="./resources/images/books.png" alt="A collection of books">
+          </div>
+          <div class="f-content">
+            <h2>Enormous Collection of Books</h2>
+            <p>AJS Library has over 5 lakhs books in all subject areas such as Computer Science, Ethics, Law, Public Administration, Mathematics, Astronomy, Fine Arts, Travel etc. published by leading publishers across the world</p>
+          </div>
+        </div>
+        <div class="book-reading-section">
+          <div class="f-pic">
+            <img src="./resources/images/reading.png" alt="Reading Section">
+          </div>
+          <div class="f-content">
+            <h2>Own Books Reading Sections</h2>
+            <p>In ground floor of AJS Library there is a spacious books reading area where readers can bring their own books and with proper permission from the library authority.</p>
+          </div>
+        </div>
+        <div class="digital-library">
+          <h2>Digital Library</h2>
+          <p>Collections are stored in digital form and can be accessed through computers provided in the library. More than 3 lakhs e-Books and 40,000 e-Journals are available.</p>
+        </div>
+      </div>
     </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
