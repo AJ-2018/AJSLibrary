@@ -10,8 +10,13 @@ p{
   margin: 0;
 }
 
-ul{
+nav ul{
   list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -96,7 +101,104 @@ ul{
 
 /* Features Section  */
 
+#features{
+  margin: 3rem auto;
+}
+
+.collections,
+  .book-reading-section,
+    .digital-library{
+      display: flex;
+      align-items: center;
+      width: 70rem;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
 .f-pic img{
   width: 10rem;
   height: auto;
+  margin: 1rem;
+}
+
+h2{
+  margin-top: 0;
+}
+
+
+/*  library video section */
+
+#video,
+  .computers{
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+
+
+/*   Pricing section   */
+
+#membership{
+  display: flex;
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.individual-membership,
+  .family-membership,
+    .corporate-membership{
+      width: 25%;
+      text-align: center;
+      border: 1px solid #000;
+      margin: 0 auto;
+    }
+
+#membership ul,
+  #membership p{
+  text-align: left;
+}
+
+#membership h3{
+  background-color: beige;
+  padding: 1rem;
+  margin: 0;
+}
+
+.details{
+  padding: 0.5rem 0.8rem;
+}
+
+.select1{
+  margin-top: 24%;
+}
+
+.select2{
+  margin-top: 16%;
+}
+
+
+/*   footer section  */
+
+footer{
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  background-color: beige;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+footer ul{
+  list-style: none;
+}
+
+footer li{
+  margin-left: 2rem;
+}
+
+.legal{
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
 }
