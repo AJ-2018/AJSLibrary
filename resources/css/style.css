@@ -4,6 +4,7 @@ body{
   margin: 0 auto;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background-image: url("../images/bg-texture3.jpg");
 }
 
 h2{
@@ -20,7 +21,7 @@ h3, h4{
 
 h5{
   font-size: 16px;
-  margin: 1rem 0 1.5rem 0;
+  margin: 1rem 0 2rem 0;
   font-weight: bold;
 }
 
@@ -147,16 +148,24 @@ a{
 }
 
 #submit{
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 0.8rem;
   margin: 1rem auto;
   text-transform: uppercase;
+  background-color: #FF9900;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#submit:hover{
+  color: #FFF;
 }
 
 
 /* Features Section  */
 
 #features{
-  margin: 3rem auto;
+  padding: 3rem 0 0 0;
 }
 
 .collections,
@@ -180,7 +189,6 @@ a{
     .book-reading-section,
       .digital-library{
         width: 80%;
-        margin: 2rem auto;
       }
 
       .digital-library .f-pic img{
@@ -198,6 +206,10 @@ h2{
 
 
 /*  library video section */
+
+#library{
+  padding: 4rem 0 0 0;
+}
 
 #video,
   .computers{
@@ -225,7 +237,8 @@ h2{
 #membership{
   display: flex;
   width: 90%;
-  margin: 4rem auto;
+  margin: 0 auto;
+  padding: 4rem 0;
 }
 
 .individual-membership,
@@ -234,7 +247,7 @@ h2{
       width: 25%;
       text-align: center;
       border: 1px solid #000;
-      margin: 0 auto;
+      margin: 1rem auto;
     }
 
 @media only screen and (max-width: 500px){
@@ -257,10 +270,11 @@ h2{
 
 #membership h3{
   background-color: #FF9900;
-  color: #FFF; /*0099FF*/
+  color: #FFF;
   word-spacing: 0.4rem;
   padding: 1rem;
   margin: 0;
+  cursor: default;
 }
 
 .details{
@@ -269,6 +283,7 @@ h2{
 
 .price{
   color: #66CC66;
+  font-weight: bolder;
 }
 
 .select1{
@@ -278,6 +293,24 @@ h2{
 .select2{
   margin-top: 16%;
 }
+
+.select1,
+  .select2,
+    .select3{
+      background-color: #FF9900;
+      color: #FFF;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+.select1:hover,
+  .select2:hover,
+    .select3:hover{
+      color: #000;
+    }
 
 
 /*   footer section  */
@@ -298,12 +331,20 @@ footer ul{
   list-style: none;
 }
 
-.legal li{
-  margin: 0 0 0 2rem;
-}
-
 .legal{
   display: flex;
   width: 90%;
   justify-content: flex-end;
+}
+
+.legal li{
+  margin: 0 0 0 1rem;
+  padding: 0.5rem;
+}
+
+.legal li:hover{
+  color: #FF0000;
+  background-color: #FFF;
+  border-radius: 4px;
+  font-weight: bold;
 }
